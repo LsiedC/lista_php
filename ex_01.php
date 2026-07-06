@@ -1,13 +1,9 @@
 <?php 
 
 function calcularFormula($x, $y){
-
-
 if (($x + $y) == 0){
-    return "Error: Division by zero";
+    return "Não é possível dividir por zero";
 }
-    $resultado = (((pow($x, 2) + pow($y, 2))) / ($x + $y));
-    return $resultado;
+    return $resultado = (((pow($x, 2) + pow($y, 2))) / ($x + $y)) ;
 }
-
 echo calcularFormula(20,334);
