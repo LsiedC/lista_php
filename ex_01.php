@@ -6,4 +6,4 @@ if (($x + $y) == 0){
 }
     return $resultado = (((pow($x, 2) + pow($y, 2))) / ($x + $y)) ;
 }
-echo calcularFormula(20,334);
+echo "<h3>Resultado:</h3>" . calcularFormula(20,334);
