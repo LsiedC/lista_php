@@ -2,25 +2,27 @@
 
 <?php
 
-function converterTemperatura($temperatura, $EscalaOrigem, $EscalaDestino){
+function converterTemperatura($temperatura, $escalaOrigem, $escalaDestino){
 
 
-    if ($EscalaOrigem == 'C' && $EscalaDestino == 'F') {
+    if ($escalaOrigem == 'C' && $escalaDestino == 'F') {
         return ($temperatura * 9/5) + 32;
-    } elseif ($EscalaOrigem == 'F' && $EscalaDestino == 'C') {
+    } elseif ($escalaOrigem == 'F' && $escalaDestino == 'C') {
         return ($temperatura - 32) * 5/9;
-    } elseif ($EscalaOrigem == 'C' && $EscalaDestino == 'K') {
+    } elseif ($escalaOrigem == 'C' && $escalaDestino == 'K') {
         return $temperatura + 273.15;
-    } elseif ($EscalaOrigem == 'K' && $EscalaDestino == 'C') {
+    } elseif ($escalaOrigem == 'K' && $escalaDestino == 'C') {
         return $temperatura - 273.15;
-    } elseif ($EscalaOrigem == 'F' && $EscalaDestino == 'K') {
+    } elseif ($escalaOrigem == 'F' && $escalaDestino == 'K') {
         return ($temperatura - 32) * 5/9 + 273.15;
-    } elseif ($EscalaOrigem == 'K' && $EscalaDestino == 'F') {
+    } elseif ($escalaOrigem == 'K' && $escalaDestino == 'F') {
         return ($temperatura - 273.15) * 9/5 + 32;
     } else {
         return "Escala de temperatura inválida.";
     }
 }
+
+converterTemperatura(25, 'C', 'F');
 
 echo "<h3>Só pra ver:</h3>";
 
