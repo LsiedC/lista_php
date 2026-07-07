@@ -11,6 +11,6 @@ function mascararCpf($cpf){
     
     return "*******" . $final;
 }
-echo mascararCpf("123.456.789-00"); // Echo serve para retornar o cpf já mascarado *******8900
+echo mascararCpf("123.456.789-00"); // Echo serve aqui para retornar o cpf já mascarado *******8900
 
 ?>
