@@ -1,3 +1,5 @@
+<!-- Exercício 04 – Gerador de Senhas -->
+
 <?php
 
 function gerarSenha(){

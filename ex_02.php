@@ -1,3 +1,5 @@
+<!-- Exercício 02 – Espelho Mágico -->
+
 <?php 
 
 function inverterTexto($texto){

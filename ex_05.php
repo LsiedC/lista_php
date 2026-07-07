@@ -1,3 +1,5 @@
+<!-- Exercício 05 – Estatísticas de Texto -->
+
 <?php
 
 function analisarTexto(){
