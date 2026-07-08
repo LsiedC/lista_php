@@ -15,8 +15,8 @@ function gerarSenha(){
         // um caractere aleatório a cada iteração do loop, até   -
         // que a senha tenha 12 caracteres como foi especificado
     }
-
     return $senha;
 }
 
+echo "Senha gerada: " . gerarSenha();
 ?>
